@@ -8,4 +8,4 @@ That includes:
 Load Balancer for the App VMs.
 1 Database VM.
 NSG for each environment
-Vnet with 2 subnets in it (one private and one public - for the app VMs).
+and Vnet with 2 subnets in it (one private and one public - for the app VMs).
