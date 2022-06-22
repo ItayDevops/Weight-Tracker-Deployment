@@ -8,10 +8,10 @@
 1. Conncte your Azure CLI to your Azure accont-`az login`.
 2. Add `secretVars.tfvar` file with this content of variabls (the users names and passwords for you virtual machines.):
 ```
-variable "webAppVMUserName" { default = "<userName>" }
-variable "webAppVMPassword" { default = "<password>" }
-variable "DB-VMUserName" { default = "<userName>" }
-variable "DB-VMPassword" { default = "<password" }
+variable "dbuser" { default = "<userName>" }
+variable "dbpass" { default = "<password>" }
+variable "appuser" { default = "<userName>" }
+variable "apppass" { default = "<password" }
 ```
 
 3. Run `terraform apply` (in the project directory).
